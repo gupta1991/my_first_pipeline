@@ -1,6 +1,5 @@
-node{
-	stage ('stage1') {
-	  sh 'echo "automate that helo !!'
-
-    }
+node {
+   stage ('stage1') {
+      sh 'echo "automate that hello !!"'
+   }
 }
